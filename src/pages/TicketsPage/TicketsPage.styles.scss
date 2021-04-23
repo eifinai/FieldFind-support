@@ -1,0 +1,49 @@
+.tickets-master-table {
+  margin-top: 20px;
+  tr {
+    cursor: pointer;
+    &:hover {
+      background-color: #e2f8e9;
+    }
+  }
+}
+.jumbotron {
+  background-color: #384650;
+  box-shadow: 5px 10px #A1A4A7;
+  border-radius: 0;
+  width: 60%;
+  color: #A1A4A7;
+}
+.display-4 {
+  display: inline;
+}
+.btn {
+  align-self: center;
+  border-radius: 20px;
+}
+
+.createbtn:hover {
+  color: white;
+  background-color: #384650;
+}
+
+.table {
+  width: 100%;
+}
+
+.table .thead-light th {
+  color: white;
+  background-color: #384650;
+  border-color: #384650;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #A1A4A7;
+  border-color: #384650;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #384650;
+}

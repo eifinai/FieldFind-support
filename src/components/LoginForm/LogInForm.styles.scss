@@ -1,0 +1,47 @@
+.login-form-component {
+  min-width: 400px;
+  min-height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #384650;
+  box-shadow: 5px 10px #A1A4A7;
+  color: #A1A4A7;
+
+  .labelStyle {
+    color: #372a0c;
+  }
+  .formStyle {
+    min-width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    color: white
+  }
+
+  .LogoImage {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 200px;
+    height: 200px;
+  }
+  .logInBtn {
+    background-color: #A1A4A7;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    align-self: center;
+    border-color: #372a0c;
+    border-radius: 20px;
+  }
+  .formInput {
+    border-radius: 20px;
+    border-color: #372a0c;
+    border-width: 2px;
+  }
+  .hyperlink {
+    color: #372a0c;
+    font-weight: bold;
+  }
+}
